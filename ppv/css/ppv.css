@@ -423,15 +423,13 @@ img {
   margin: 0 0 0 4% !important;
 }
 
-.cp_i_box_01 li {
+/*.cp_i_box_01 li {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.cp_i_box_01 li:nth-child(2) img {
-  width: 70%;
-}
+*/
 
 .cbh {
   font-size: 47px;
