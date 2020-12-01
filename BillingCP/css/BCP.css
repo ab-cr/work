@@ -10,7 +10,7 @@ body {
   font-family: "Noto Sans JP", sans-serif !important;
   color: #fff;
   margin: 0 auto;
-  background: #fff;
+  background: #fff !important;
 }
 body li {
   list-style: none;
@@ -594,16 +594,16 @@ header .h_l span {
 }
 header .h_a {
   position: relative;
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/5590de3af85704a046ec7d0881fd6e12_7d64aa6fe0464c7c184a3fe30294fad4.jpg) center top no-repeat;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/ac9d291a585698ce9ddceaeeadb933ea_e4b92de1cb1aec460650153024e7cd64.jpg) center top no-repeat;
   background-size: cover;
-  height: 456px;
-  padding: 55px 0 0;
+  height: 575px;
+  padding: 45px 0 0;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 header .h_m {
-  max-width: 647px;
+  max-width: 680px;
   margin: 0 auto 0;
   line-height: 0;
 }
@@ -1986,14 +1986,14 @@ footer small {
   }
   header .h_a {
     position: relative;
-    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/80b322047be54fabbff9e2085ad641c6_44d502039afe4434a4dbbff7e93d3ceb.jpg) center top no-repeat;
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/ac9d291a585698ce9ddceaeeadb933ea_e4b92de1cb1aec460650153024e7cd64.jpg) center top no-repeat;
     background-size: cover;
     height: auto;
-    padding: 7.5% 0 7%;
+    padding: 6.5% 0 13%;
     margin: 0 auto;
   }
   header .h_m {
-    width: 80.8%;
+    width: 100%;
     margin: 0 auto 0;
   }
   header .h_date {
@@ -2905,11 +2905,8 @@ footer small {
     max-width: 19.2%;
   }
   header .h_a {
-    padding: 7.5% 0 7%;
+    padding: 7.5% 0 15%;
     margin: 0 auto;
-  }
-  header .h_m {
-    width: 82.8%;
   }
   header .h_date {
     padding: 3% 0 0;
