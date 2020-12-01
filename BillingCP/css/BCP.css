@@ -335,7 +335,7 @@ img {
   letter-spacing: 1.2px;
   text-align: center;
 }
-.cp_item .cph_02 .ss {
+.cph_02 .ss {
   font-size: 32px;
 }
 .cp_item .cph_02 .bub , .epi .cph_02 .bub{
@@ -945,10 +945,10 @@ header .h_date {
 .c_tdl .rank {
   display: inline-block;
   background: #ddaa00;
-  padding:3px 10px;
+  padding:4px 14px;
   margin: 0 0 16px;
   letter-spacing: 1.3px;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 1;
   color: #000;
@@ -1899,7 +1899,6 @@ footer small {
     line-height: 0.8;
   }
 
-
   .m_lot + .cbh {
     font-size: calc(73vw/12)
   }
@@ -2207,7 +2206,7 @@ footer small {
 
   .c_tdl .rank {
     font-size: calc(40vw/12);
-    padding: 2px 4%;
+    padding: 5px 6%;
   }  
   .c_tdl dt .rank .num {
     font-size: calc(65vw/12);
@@ -3112,12 +3111,12 @@ footer small {
   .c_tdl .new {
     font-size: calc(31vw/12);
     padding: 1px 6%;
-    margin-bottom: 4%;
+    margin-bottom: 7%;
   }
 
   .c_tdl .rank {
     font-size: calc(40vw/12);
-    padding: 2px 4%;
+    padding: 4px 6%;
     margin-bottom: 4%;
   }
 
