@@ -621,7 +621,7 @@ header .h_date {
 }
 
 .time {
-  padding: 85px 0 82px;
+  padding: 40px 0 0;
   text-align: center;
 }
 .time .wrap {
