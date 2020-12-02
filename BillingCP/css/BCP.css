@@ -468,6 +468,10 @@ img {
   margin-top: 55px;
 }
 
+.h2_pre .ss {
+  font-size: 79.5%;
+}
+
 .cbh {
   font-size: 47px;
   font-weight: bold;
@@ -899,14 +903,14 @@ header .h_date {
   width: 53%;
   line-height: 0;
 }
-.contents .c_three .c_titem li:nth-child(4) .c_tdl dd,.contents .c_three .c_titem li:nth-child(5) .c_tdl dd {
+.contents .c_three .c_titem.ranking li:nth-child(4) .c_tdl dd,.contents .c_three .c_titem.ranking li:nth-child(5) .c_tdl dd {
   width: 42.3%;
 }
-.contents .c_three .c_titem li:nth-child(4) .c_tdl dt,.contents .c_three .c_titem li:nth-child(5) .c_tdl dt {
+.contents .c_three .c_titem.ranking li:nth-child(4) .c_tdl dt,.contents .c_three .c_titem.ranking li:nth-child(5) .c_tdl dt {
   width: 52.9%;
 }
 
-.contents .c_three .c_titem li:nth-child(4) .c_tdl .rank, .contents .c_three .c_titem li:nth-child(5) .c_tdl .rank {
+.contents .c_three .c_titem.ranking li:nth-child(4) .c_tdl .rank, .contents .c_three .c_titem.ranking li:nth-child(5) .c_tdl .rank {
   background: transparent;
   color: #ddaa00;
   padding: 0;
@@ -1071,6 +1075,7 @@ header .h_date {
 }
 .contents .m_list li:nth-child(3n+1) {
   margin: 1.5% 0 0;
+  clear: both;
 }
 .contents .m_list li:nth-child(3) {
   margin: 0 0 0 1.5%;
