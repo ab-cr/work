@@ -459,6 +459,22 @@ img {
 
 */
 
+.c_titem .ranking:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ 
+.c_titem .ranking:before {
+　　　　content: "";
+  display: block;
+  clear: both;
+}
+ 
+.c_titem .ranking {
+  display: block;
+}
+
 .h3_info {
   border-left: 10px solid #ddaa00;
   padding-left: 35px;
