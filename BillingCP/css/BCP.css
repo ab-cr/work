@@ -459,21 +459,6 @@ img {
 
 */
 
-.c_titem .ranking:after {
-  content: "";
-  display: block;
-  clear: both;
-}
- 
-.c_titem .ranking:before {
-　　　　content: "";
-  display: block;
-  clear: both;
-}
- 
-.c_titem .ranking {
-  display: block;
-}
 
 .h3_info {
   border-left: 10px solid #ddaa00;
@@ -1498,7 +1483,6 @@ aside .f_d dd {
   margin: 21px 0 0;
   font-size: 24px;
   line-height: 1.45;
-  letter-spacing: 1.4px;
 }
 aside .f_d dd .caution {
   display: block;
