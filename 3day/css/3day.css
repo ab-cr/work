@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
- 
+
 body {
   line-height: 1;
   min-width: 320px;
@@ -553,7 +553,6 @@ img {
 }
 
 .c_top {
-  padding: 0 0 30px;
   margin: 40px 0 0;
   text-align: right;
   white-space: nowrap;
