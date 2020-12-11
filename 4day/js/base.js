@@ -6,7 +6,7 @@ $(function() {
 function countDown() {
 	var now = new Date();
 	var time = new Date();
-	var end = new Date("2020/12/31 00:00");
+	var end = new Date("2020/12/31 23:59");
 	var left = end - time;
 	var a_day = 24 * 60 * 60 * 1000;
 	var d = Math.floor(left / a_day)
