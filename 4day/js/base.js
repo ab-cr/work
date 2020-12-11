@@ -19,6 +19,8 @@ function countDown() {
 	$("#min").text(m);
 	$("#sec").text(s);
 	setTimeout('countDown()', 1000);
+
+	$(".block-type--html iframe").ss({'cssText': 'height: auto !important;'});
 }
 
 // 非表示時間
