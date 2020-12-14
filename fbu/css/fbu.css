@@ -232,6 +232,10 @@ header .h_date {
   text-align: left;
 }
 
+.program_list ul li:last-child {
+  padding-bottom: 0;
+}
+
 .program_list ul li.nb {
   border: none;
 }
@@ -319,7 +323,7 @@ header .h_date {
 }
 
 .t_top {
-    margin: 50px 0 ;
+    margin: 35px 0 23px;
     text-align: right;
     white-space: nowrap;
 }
