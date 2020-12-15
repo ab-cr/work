@@ -630,6 +630,10 @@ footer small {
     font-size: calc(40vw/12);
   }
 
+  .t_top a {
+    font-size: calc(50vw/12);
+  }
+
   aside {
     padding: 0;
   }
@@ -833,6 +837,13 @@ footer small {
     letter-spacing: 1.5px;
   }
 
+  .program_list ul li p {
+    margin-top: 3%; 
+  }
+
+  .pre_btn a, .program_list ul li p.cs_btn {
+    margin-top: 4%; 
+  }
 
   aside {
     padding: 0;
