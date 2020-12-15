@@ -273,9 +273,14 @@ header .h_date {
   background: #f77c22;
 }
 
-.program_list ul li span.koireal {
+.program_list ul li span.koiria {
   background: #e02b6c;
 }
+
+.program_list ul li span.ongaku {
+  background: #0071f0;
+}
+
 
 .program_list ul li span.eiga {
   background: #7300e9;
