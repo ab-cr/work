@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
- 
+
 body {
   line-height: 1;
   min-width: 320px;
@@ -111,7 +111,7 @@ img {
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1.5px;
-  color: #fff;
+  color: #000000;
 }
 .pre_btn a span {
   font-size: 34px;
@@ -206,7 +206,7 @@ img {
 .notes {
   color: #cecece;
   font-size: 18px;
-  margin-top: 20px;
+  margin: 20px 0 50px;
 }
 
 .c_h {
@@ -611,15 +611,15 @@ header .h_l span {
 }
 header .h_a {
   position: relative;
-  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/e2b4baed1b7f16a1ebd393bf76a80a1b_84b7f371ee778800f0c37f54b8502224.jpg) center top no-repeat;
+  background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/9aaffcd24e4198aa4a53848da2714bd4_62ecfb9a262d0b8a7646ac5b73e582e3.jpg) center top no-repeat;
   background-size: cover;
-  padding: 100px 0 120px;
+  padding: 160px 0 170px;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 header .h_m {
-  max-width: 650px;
+  max-width: 421px;
   margin: 0 auto 0;
   line-height: 0;
 }
@@ -901,14 +901,19 @@ header .h_date {
   font-size: 48px;
 }
 .contents .c_three {
-  margin: 65px 0 0;
+  margin: 0 0 0;
 }
-.contents .c_three .c_titem li {
-  padding: 48px 0;
+
+.c_titem {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c_titem li {
+  padding: 48px 3%;
   border-bottom: 1px solid #606060;
-}
-.contents .c_three .c_titem li:first-child {
-  padding: 0 0 48px;
+  width: 50%;
+  box-sizing: border-box;
 }
 .contents .c_three .c_titem li a {
   display: block;
@@ -921,11 +926,9 @@ header .h_date {
       -ms-flex-align: center;
           align-items: center;
 }
-.contents .c_three .c_tdl dd {
-  width: 49%;
-  line-height: 0;
-  padding-left: 4.5%;
-}
+
+
+
 .contents .c_three .c_titem.ranking li:nth-child(4) .c_tdl dd,.contents .c_three .c_titem.ranking li:nth-child(5) .c_tdl dd {
   width: 42.3%;
 }
@@ -1463,6 +1466,46 @@ header .h_date {
   color: #000;
 }
 
+.table_wrap {
+  border-top: 1px solid #606060;
+  border-bottom: 1px solid #606060;
+  padding: 50px 0;
+}
+.table_wrap table {
+  margin-top: 50px; 
+  border: 1px solid #606060;
+  border-radius: 5px;
+  width: 100%;  
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table_wrap table th, .table_wrap table td {
+  padding:  5px 45px;
+  font-size: 22px;
+}
+.table_wrap table th {
+  text-align: center; 
+  background: #1f2020;
+  border: 1px solid #606060;
+  border-radius: 0px 5px 0 0;
+}
+.table_wrap table th:first-child {
+  width: 60.3%; 
+  border-radius:  5px 0 0 0;
+}
+
+.table_wrap table td {
+  border: 1px solid #606060;
+}
+
+.table_wrap table tr:last-child td {
+  border-radius: 0 0 5px 0;
+}
+
+.table_wrap table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px;
+}
+
 aside {
   background: #000;
   color: #fff;
@@ -1530,13 +1573,11 @@ aside .f_c {
 }
 
 footer {
-  background: #efefef;
 }
 footer .wrap {
   max-width: 680px;
   margin: 0 auto;
   padding: 60px 0 120px;
-  border-top: 2px solid #404040;
 }
 footer .copy {
   margin: 0 0 32px;
@@ -1561,7 +1602,7 @@ footer .f_list li a {
   display: block;
   padding: 0 12px 0 0;
   font-size: 16px;
-  color: #000;
+  color: #919191;
 }
 footer .f_list li:after {
   content: ' | ';
@@ -1597,7 +1638,7 @@ footer small {
   font-size: 16px;
   letter-spacing: 1px;
   text-align: left;
-  color: #000;
+  color: #919191;
 }
 
 @media screen and (max-width: 768px) {
@@ -1688,6 +1729,12 @@ footer small {
     padding: 3% 0;
     text-align: center;
     font-size: calc(50vw/12);
+    margin-top: 6%;
+  }
+
+  .notes {
+    font-size: calc(27vw/12);
+    margin: 4% 0 6%;
   }
 
   .p_ir_t {
@@ -2200,20 +2247,6 @@ footer small {
     width: 7%;
     height: 87%;
   }
-  .contents .c_three {
-    margin: 9.45% 0 0;
-  }
-  .contents .c_three .c_titem li {
-    padding: 5.5% 0;
-  }
-  .contents .c_three .c_titem li:first-child {
-    padding: 0 0 5.5%;
-  }
-  .contents .c_three .c_tdl dt {
-    padding: 0 0 0 3.5%;
-    font-size: calc(36vw/12);
-    line-height: 1.75;
-  }
 
   .c_tdl .new {
     font-size: calc(31vw/12);
@@ -2490,6 +2523,19 @@ footer small {
     max-width: 20%;
   }
 
+    .table_wrap {
+      padding:  4% 0 6%;
+    }
+
+    .table_wrap table th, .table_wrap table td {
+      padding:  1% 3%;
+      font-size: calc(26vw/12);
+      margin-top: 6%; 
+    }
+    .table_wrap table {
+      margin-top: 6%; 
+    }
+
   aside {
     padding: 0;
   }
@@ -2551,7 +2597,6 @@ footer small {
   footer .wrap {
     padding: 4% 0 5%;
     margin: 0 5%;
-    border-top: 1px solid #404040;
   }
   footer .copy {
     margin: 0 0 6%;
@@ -2685,7 +2730,7 @@ footer small {
 
   .cbh_img {
     width: 99.3%;
-    margin: 2% auto 0;
+    margin: 5% auto 0;
   }
 
   .banner_t {
@@ -3116,22 +3161,11 @@ footer small {
     height: 87%;
   }
   .contents .c_three {
-    margin: 9.5% 0 0;
+    margin: 5.5% 0 0;
   }
-  .contents .c_three .c_titem li {
-    padding: 5.5% 0;
-  }
-  .contents .c_three .c_titem li:first-child {
-    padding: 0 0 5.5%;
-  }
-  .contents .c_three .c_tdl dd {
-    width: 55%;
-  }
-  .contents .c_three .c_tdl dt {
-    width: 41.5%;
-    padding: 0 0 0 3.5%;
-    font-size: calc(38vw/12);
-    line-height: 1.6;
+
+  .c_titem li {
+    padding: 5% 3%;
   }
 
   .c_tdl .new {
@@ -3443,7 +3477,6 @@ footer small {
   footer .wrap {
     padding: 4% 0 5%;
     margin: 0 5%;
-    border-top: 1px solid #404040;
   }
   footer .copy {
     margin: 0 0 6%;
