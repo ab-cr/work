@@ -145,6 +145,10 @@ img {
   padding: 0 !important;
 }
 
+.tl {
+  text-align: left !important  ;
+}
+
 .pb30 {
   padding: 0 0 35px !important;
 }
