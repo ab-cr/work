@@ -222,7 +222,7 @@ header .h_date {
   max-width: 380px;
   margin: 0 auto;
   font-size: 24px;
-  letter-spacing: 0.126;
+  letter-spacing: 0.126em;
  }
 
 .program_list ul li {
@@ -606,6 +606,7 @@ footer small {
 
   .date {
     font-size: calc(34vw/12);
+    max-width: 55.9%;
   }
 
   .program_list ul li {
@@ -620,6 +621,7 @@ footer small {
 
   .program_list ul li span {
     font-size: calc(40vw/12);
+    margin-right: 2.2%; 
   }
 
   .program_list ul li span.time {
