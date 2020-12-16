@@ -7,7 +7,7 @@
 body {
   line-height: 1;
   min-width: 320px;
-  font-family:  'Hiragino Sans', 'ヒラギノ角ゴシック',"Noto Sans JP", sans-serif !important;
+  font-family:  'ヒラギノ角ゴシック', 'Hiragino Sans', "Noto Sans JP", sans-serif !important;
   color: #fff;
   margin: 0 auto;
   background: #000000 !important;
@@ -223,6 +223,7 @@ header .h_date {
   margin: 0 auto;
   font-size: 24px;
   letter-spacing: 0.126em;
+  font-family: "Hiragino Kaku Gothic ProN";   
  }
 
 .program_list ul li {
@@ -620,7 +621,7 @@ footer small {
 
   .program_list ul li h3 {
     font-size: calc(56vw/12);
-    margin:   3% 0 1.5%;
+    margin:   3.7% 0;
   }
 
   .program_list ul li span {
@@ -629,7 +630,7 @@ footer small {
   }
 
   .program_list ul li span.time {
-    padding-top: 20px;  
+    padding-top: 2.1%;  
   }
 
   .program_list ul li p {
