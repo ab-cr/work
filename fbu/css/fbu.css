@@ -211,7 +211,7 @@ header .h_date {
  h2 {
   font-size: 41px;
   letter-spacing: 0.11;
-  font-family: " Gothic MB101";
+  font-family: "Noto Sans JP", sans-serif !important;
   margin: 40px 0 20px;
  }
 
@@ -223,7 +223,7 @@ header .h_date {
   margin: 0 auto;
   font-size: 24px;
   letter-spacing: 0.126em;
-  font-family: "Hiragino Kaku Gothic ProN";   
+  font-family: "Noto Sans JP", sans-serif !important;   
  }
 
 .program_list ul li {
@@ -604,7 +604,7 @@ footer small {
 
   h2 {
     font-size: calc(67vw/12);
-    margin: 4% 0 2%;
+    margin: 6% 0 4%;
   }
 
   .date {
@@ -621,7 +621,7 @@ footer small {
 
   .program_list ul li h3 {
     font-size: calc(56vw/12);
-    margin:   3.7% 0;
+    margin:   6% 0;
   }
 
   .program_list ul li span {
@@ -846,7 +846,7 @@ footer small {
   }
 
   .program_list ul li p {
-    margin-top: 3%; 
+    margin-top: 2%; 
   }
 
   .pre_btn a, .program_list ul li p.cs_btn {
