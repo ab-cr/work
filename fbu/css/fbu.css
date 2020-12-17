@@ -612,6 +612,7 @@ footer small {
     width: 55.9%;
     padding: 5px;
     box-sizing: border-box;
+    margin: 0 auto 6%;
   }
 
   .program_list ul li {
@@ -846,7 +847,7 @@ footer small {
   }
 
   .program_list ul li p {
-    margin-top: 2%; 
+    margin-top: 3%; 
   }
 
   .pre_btn a, .program_list ul li p.cs_btn {
