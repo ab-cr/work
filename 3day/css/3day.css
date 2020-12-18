@@ -494,6 +494,12 @@ img {
   line-height: 0.8;
 }
 
+.h3_pre {
+    font-size: 26px;
+    margin: 40px 0;
+    line-height: 1.69;
+} 
+
 .cbh04 {
   font-size: 40px;
   font-weight: bold;
@@ -1991,6 +1997,11 @@ footer small {
     display: inline-block;
     font-size: calc(46vw/12);
     letter-spacing: 0.5px;
+  }
+
+  .h3_pre {
+    font-size: calc(44vw/12);
+    margin: 4% 0;
   }
 
   header {
