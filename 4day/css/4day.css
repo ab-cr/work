@@ -468,7 +468,7 @@ img {
   padding-left: 35px;
   font-size: 32px;
   font-weight: bold;
-  font-family: 'Hirakaku Pro';
+  
   margin-top: 55px;
 }
 
@@ -737,7 +737,7 @@ header .h_date {
   font-size: 24px;
   letter-spacing: 1.2px;
   text-align: left;
-  font-family: 'Hirakaku Pro';
+  
 }
 .time .conditions .cc_list li:before {
   content: '';
@@ -1196,7 +1196,7 @@ header .h_date {
 }
 .con_table th {
   background: #cecece;
-  font-family: 'Hirakaku Pro';
+  
   font-size: 20px;
   padding: 20px;
   color: #000;
