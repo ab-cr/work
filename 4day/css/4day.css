@@ -762,7 +762,16 @@ header .h_date {
   font-size: 17px;
 }
 
+.h3_pre {
+    font-size: 26px;
+    margin: 40px 0;
+    line-height: 1.69;
+}
 
+.conditions .cc_h + p {
+    letter-spacing: 1.2px;
+    font-size: 17px;
+}
 
 .time .cc_ball {
     position: absolute;
@@ -2107,6 +2116,11 @@ footer small {
     font-size: calc(39vw/12);
     letter-spacing: 2px;
   }
+  .conditions .cc_h + p {
+    letter-spacing: 0.5px;
+    font-size: calc(27vw/12);
+  }
+
   .time .conditions .cc_text {
     margin: 0 0 3.8%;
     line-height: 1.45;
@@ -2135,6 +2149,11 @@ footer small {
     margin: 4.3% 0 0;
     letter-spacing: 0.5px;
     font-size: calc(27vw/12);
+  }
+
+  .h3_pre {
+    font-size: calc(44vw/12);
+    margin: 4% 0;
   }
 
   .contents .wrap {
@@ -3033,6 +3052,11 @@ footer small {
     letter-spacing: -0.2px;
     font-size: calc(42vw/12);
   }
+
+  .conditions .cc_h + p {
+    font-size: calc(28vw/12); 
+  }
+
   .time .conditions .cc_list li {
     padding: 0 0 0 7.4%;
     margin: 1.5% 0 0;
