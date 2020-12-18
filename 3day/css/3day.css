@@ -732,9 +732,9 @@ header .h_date {
 
 .time .cc_ball {
     position: absolute;
-    top: -67px;
-    right: -6px;
-    width: 145px;
+    top: -35%;
+    right: -10%;
+    width: 22%;
 }
 
 .contents {
@@ -1855,8 +1855,8 @@ footer small {
 
   .time .cc_ball {
     position: absolute;
-    top: -14%;
-    right: -1%;
+    top: -30%;
+    right: -3%;
     width: 21%;
     max-width: 145px;
   }
@@ -2836,7 +2836,7 @@ footer small {
   }
 
   .time .cc_ball {
-    top: -20%;
+    top: -30%;
     right: -1%;
     width: 22%;
   }
