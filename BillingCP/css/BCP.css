@@ -473,6 +473,12 @@ img {
   font-size: 79.5%;
 }
 
+.h3_pre {
+  font-size: 26px;
+  margin: 40px 0;
+  line-height: 1.69;
+}
+
 .cbh {
   font-size: 47px;
   font-weight: bold;
@@ -503,7 +509,7 @@ img {
 }
 
 .h2_04 {
-  font-size: 46px;
+  font-size: 45px;
 }
 .h2_04 .smallP {
   font-size: 87%;
@@ -534,8 +540,7 @@ img {
 }
 
 .cbh_img {
-  max-width: 661px;
-  margin: 52px auto 0;
+  max-width: 651px;
   line-height: 0;
 }
 
@@ -728,6 +733,11 @@ header .h_date {
   border-top: 1px solid #a0a0a0;
   letter-spacing: 1.2px;
   font-size: 17px;
+}
+
+.conditions .cc_h + p {
+    letter-spacing: 1.2px;
+    font-size: 17px;
 }
 
 .contents {
@@ -1904,6 +1914,11 @@ footer small {
     line-height: 0.8;
   }
 
+  .h3_pre {
+    font-size: calc(44vw/12);
+    margin: 4% 0;
+  }
+
   .m_lot + .cbh {
     font-size: calc(73vw/12)
   }
@@ -2077,6 +2092,12 @@ footer small {
     letter-spacing: 0.5px;
     font-size: calc(27vw/12);
   }
+
+  .conditions .cc_h + p {
+    letter-spacing: 0.5px;
+    font-size: calc(27vw/12);
+  }
+
 
   .contents .wrap {
     max-width: 680px;
@@ -2824,7 +2845,6 @@ footer small {
   }
 
   .cbh {
-    padding: 0 0 8%;
     margin: 4% 0 0;
     font-size: calc(74vw/12);
     letter-spacing: -0.5px;
@@ -2992,6 +3012,9 @@ footer small {
     font-size: calc(28vw/12);
   }
 
+  .conditions .cc_h + p {
+    font-size: calc(28vw/12);
+  }
   .contents .wrap {
     max-width: 680px;
     margin: 0 auto;
