@@ -2950,6 +2950,11 @@ footer small {
     letter-spacing: 1.5px;
   }
 
+  .h3_info {
+    padding-left: 2%;
+    border-left: 6px solid #ddaa00;
+  }
+
   .time {
     padding: 5% 0 6%;
   }
