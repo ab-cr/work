@@ -1845,7 +1845,7 @@ footer small {
   .timer span {
     font-size: calc(50vw/12);
     width: auto;
-    padding: 1% 2%;
+    padding: 1% 1.5%;
   }
 
   .cp_item li {
@@ -3436,11 +3436,13 @@ footer small {
 
   .timer {
       font-size: calc(35vw/12);
-      padding: 2%;
+      padding: 3% 1%;
   }
 
   .timer span {
     padding: 1% 2%;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
   }
 
   .c_ldl {
