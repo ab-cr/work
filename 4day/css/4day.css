@@ -3071,11 +3071,6 @@ footer small {
    padding: 2% 0;
   }
 
-  .timer span{
-    padding: 1% 2%;
-    margin: 0 2%;
-  }
-
   .det_btn a {
     border: 1.5px solid #dc0101;
     margin: 6% 0 0;
@@ -3442,6 +3437,7 @@ footer small {
   .timer span {
     padding: 1% 2.5%;
     border-radius: 4px;
+    margin: 0 1.8%;
     letter-spacing: 0.02em;
   }
 
