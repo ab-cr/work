@@ -3417,6 +3417,10 @@ footer small {
     padding-left: 2%;
     border-left: 6px solid #ddaa00;
   }
+
+  .time {
+    padding: 5% 0 0;
+  }
   
   aside {
     padding: 0;
