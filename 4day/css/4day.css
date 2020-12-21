@@ -1845,7 +1845,7 @@ footer small {
   }
 
   .timer span {
-    font-size: calc(47vw/12);
+    font-size: calc(50vw/12);
     width: auto;
     padding: 1% 2%;
   }
