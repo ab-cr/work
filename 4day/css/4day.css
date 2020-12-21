@@ -771,6 +771,7 @@ header .h_date {
 .conditions .cc_h + p {
     letter-spacing: 1.2px;
     font-size: 17px;
+    line-height: 1.2;
 }
 
 .time .cc_ball {
@@ -3079,7 +3080,7 @@ footer small {
 
   .det_btn a {
     border: 1.5px solid #dc0101;
-    margin: 7%;
+    margin: 6% 0 0;
   }
 
   .conditions .cc_h + p {
