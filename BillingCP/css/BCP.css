@@ -3406,6 +3406,10 @@ footer small {
     letter-spacing: 0.5px;
   }
 
+  .det_btn a {
+    border: 1px solid #dc0101;
+  }
+
   aside {
     padding: 0;
   }
