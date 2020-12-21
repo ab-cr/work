@@ -635,13 +635,13 @@ header .h_date {
 .timer p {
   text-align: center;
   color: #fff;
-  font-size: 80%;
+  font-size: 75%;
 }
 
 .timer span {
     display: inline-block;
     background: #212121;
-    padding: 5px;
+    padding: 8px 5px;
     margin: 0 10px;
     border-radius: 5px;
     font-weight: bold;
@@ -3435,9 +3435,9 @@ footer small {
   }
 
   .timer span {
-    padding: 1% 2.5%;
+    padding: 2% 1.8%;
     border-radius: 4px;
-    margin: 0 1.8%;
+    margin: 0 2%;
     letter-spacing: 0.02em;
   }
 
