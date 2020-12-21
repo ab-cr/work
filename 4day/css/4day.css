@@ -623,12 +623,6 @@ header .h_date {
   color: #fff;
 }
 
-.t_box {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-
-}
 .timer {
     font-size: 24px;
     text-align: center;
