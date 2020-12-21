@@ -2951,7 +2951,7 @@ footer small {
   }
 
   .h3_info {
-    padding-left: 2%;
+      padding: 1% 0 1% 2%;
     border-left: 6px solid #ddaa00;
   }
 
