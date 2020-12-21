@@ -1845,7 +1845,7 @@ footer small {
   }
 
   .timer span {
-    font-size: calc(45vw/12);
+    font-size: calc(47vw/12);
     width: auto;
     padding: 1% 2%;
   }
@@ -3442,7 +3442,7 @@ footer small {
   }
 
   .timer span {
-    padding: 1%;
+    padding: 1% 2%;
   }
 
   .c_ldl {
