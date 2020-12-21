@@ -623,6 +623,12 @@ header .h_date {
   color: #fff;
 }
 
+.t_box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
 .timer {
     font-size: 24px;
     text-align: center;
@@ -641,8 +647,8 @@ header .h_date {
 .timer span {
     display: inline-block;
     background: #212121;
-    padding: 10px;
-    margin: 0 15px;
+    padding: 5px;
+    margin: 0 10px;
     border-radius: 5px;
     font-weight: bold;
     font-size: 32px;
