@@ -1562,7 +1562,10 @@ footer .wrap {
   border-top: 2px solid #404040;
 }
 footer .copy {
-  margin: 0 0 32px;
+    font-size: 16px;
+    color: #000;
+    margin-top: 30px;
+    letter-spacing: 1px;
 }
 footer .copy li {
   width: 100%;
@@ -2576,8 +2579,8 @@ footer small {
     margin: 0 5%;
     border-top: 1px solid #404040;
   }
-  footer .copy {
-    margin: 0 0 6%;
+   footer .copy {
+      margin: 5% 0 2%;
   }
   footer .copy li {
     margin: 0.7% 0 0 0;
