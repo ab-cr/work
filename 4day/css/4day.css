@@ -1196,23 +1196,30 @@ header .h_date {
 }
 
 .con_table {
-  border: 1px solid #666666;
-  border-collapse: collapse;
+  border: 2px solid #666666;
+  border-collapse: separate;
   width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  border-spacing: 0;
 }
 .con_table th, .con_table td {
-  border: 2px solid #666;
+    border-bottom: 2px solid #666;
+    border-left: 2px solid #666;
 }
 .con_table th {
   background: #cecece;
-  
   font-size: 20px;
   padding: 20px;
   color: #000;
   text-align: center;
 }
+.con_table tr:first-child th:last-child {
+  background: #ddaa00;
+}
 .con_table tr th:nth-child(1) {
   text-align: left;
+  border-left: none;
 }
 .con_table th .small {
   font-size: 18px;
@@ -1220,6 +1227,10 @@ header .h_date {
 .con_table td {
   text-align: center;
   width: 27%;
+}
+.con_table tr:last-child th,
+.con_table tr:last-child td {
+  border-bottom: none;
 }
 .con_table img {
   max-width: 35px;
@@ -3478,7 +3489,10 @@ footer small {
     font-size: calc(50vw/12);
     letter-spacing: 0.5px;
   }
-
+  .h3_info {
+      padding-left: 2%;
+      border-left: 6px solid #ddaa00;
+  }
   aside {
     padding: 0;
   }
