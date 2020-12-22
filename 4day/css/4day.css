@@ -3494,6 +3494,9 @@ footer small {
       padding-left: 2%;
       border-left: 6px solid #ddaa00;
   }
+  .con_table {
+    border: 1px solid #666666;
+  }
   aside {
     padding: 0;
   }
