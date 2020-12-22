@@ -502,7 +502,7 @@ img {
 }
 
 .h2_04 {
-  font-size: 46px;
+  font-size: 44px;
 }
 .h2_04 .smallP {
   font-size: 87%;
@@ -652,6 +652,7 @@ header .h_date {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    width: 65px;
 }
 
 .time {
@@ -1844,7 +1845,7 @@ footer small {
 
   .timer span {
     font-size: calc(50vw/12);
-    width: auto;
+    width: 9.5%;
     padding: 1% 1.5%;
   }
 
