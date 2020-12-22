@@ -635,7 +635,7 @@ footer small {
   }
 
   .program_list ul li p {
-    margin-top: 2.5%; 
+    margin-top: 3%; 
     font-size: calc(40vw/12);
   }
 
@@ -863,7 +863,7 @@ footer small {
   }
 
   .program_list ul li p {
-    margin-top: 3%; 
+    margin-top: 2%; 
   }
 
   .pre_btn a, .program_list ul li p.cs_btn {
