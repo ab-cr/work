@@ -850,6 +850,10 @@ footer small {
     letter-spacing: 1.5px;
   }
 
+  .program_list ul li span {
+    padding: 0.5% 2%;
+  }
+
   .program_list ul li p {
     margin-top: 3%; 
   }
