@@ -65,14 +65,14 @@ ul {
 .pre_btn a, .program_list ul li p.cs_btn {
   display: block;
   background: #ddaa00;
-  padding: 28px 0;
+  padding: 17px 0;
   border-radius: 6px;
   text-align: center;
   font-size: 32px;
   font-weight: bold;
   letter-spacing: 1.5px;
   color: #000000;
-  margin-top: 30px;     
+  margin-top: 20px;     
 }
 .pre_btn a span {
   font-size: 34px;
@@ -216,10 +216,10 @@ header .h_date {
  }
 
  .date {
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   border-radius: 20px;
-  padding: 5px 55px;
-  max-width: 380px;
+  padding: 6px 0 8px;
+  width: 380px;
   margin: 0 auto;
   font-size: 24px;
   letter-spacing: 0.126em;
@@ -248,7 +248,7 @@ header .h_date {
 }
 
 .program_list ul li span {
-  padding: 2px 9px;
+  padding: 1px 9px 0;
   margin: 0 15px 10px 0;
   font-family: 'Hiragino Sans';
   font-weight: 600;
@@ -816,6 +816,10 @@ footer small {
     max-width: none;
     width: 85%;
     margin: 0 auto;
+  }
+
+  .date {
+    border: 1px solid #fff;
   }
 
   .pre_btn a, .program_list ul li p.cs_btn {
