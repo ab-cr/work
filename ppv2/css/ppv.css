@@ -250,7 +250,7 @@ img {
   border-bottom: 1px solid #606060;
 }
 .cp_item .cp_n {
-  padding: 61px 0 78px !important;
+  padding: 61px 0 0 !important;
   border: none;
 }
 .cp_item .c_po1 {
@@ -1658,7 +1658,7 @@ footer small {
     padding: 9% 0 8%;
   }
   .cp_item .cp_n {
-    padding: 3% 0 9% !important;
+    padding: 3% 0 0 !important;
   }
   .cp_item .c_po1 {
     width: 32%;
@@ -2577,7 +2577,7 @@ footer small {
     padding: 9% 0 8%;
   }
   .cp_item .cp_n {
-    padding: 2% 0 9% !important;
+    padding: 2% 0 0 !important;
   }
   .cp_item .c_po1 {
     width: 34%;
