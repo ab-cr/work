@@ -277,6 +277,9 @@ img {
   letter-spacing: 1.3px;
   color: #000;
 }
+.cp_item .cbh {
+  margin-top: 0 !important;
+}
 .cp_item .cph .bob, .cph_02 .bob {
   display: inline-block;
   border-bottom: 5px solid #ddaa00;
