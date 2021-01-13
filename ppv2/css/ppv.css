@@ -966,20 +966,20 @@ header .h_date {
   line-height: 0;
   margin: 0 auto;
 }
-.contents .m_lot {
+.time .m_lot {
   margin: 40px 0 0;
   border-radius: 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.contents .m_lot .ml_h {
+.time .m_lot .ml_h {
   font-size: 34px;
   font-weight: normal;
   text-align: center;
   line-height: 1.4;
   color: #fff;
 }
-.contents .m_lot figure {
+.time .m_lot figure {
   max-width: 645px;
   margin: 30px auto 0;
   line-height: 0;
@@ -2142,15 +2142,15 @@ footer small {
     width: 55.6%;
     padding: 11.8% 0 0;
   }
-  .contents .m_lot {
+  .time .m_lot {
     margin: 6% 0 0;
     border-radius: 6px;
   }
-  .contents .m_lot .ml_h {
+  .time .m_lot .ml_h {
     font-size: calc(53vw/12);
     line-height: 1.4;
   }
-  .contents .m_lot figure {
+  .time .m_lot figure {
     max-width: 645px;
     margin: 30px auto 0;
     line-height: 0;
@@ -3037,15 +3037,15 @@ footer small {
     width: 53.6%;
     padding: 11.8% 0 0;
   }
-  .contents .m_lot {
+  .time .m_lot {
     margin: 6% 0 0;
     border-radius: 4px;
   }
-  .contents .m_lot .ml_h {
+  .time .m_lot .ml_h {
     font-size: calc(55vw/12);
     line-height: 1.4;
   }
-  .contents .m_lot figure {
+  .time .m_lot figure {
     max-width: 645px;
     margin: 30px auto 0;
     line-height: 0;
