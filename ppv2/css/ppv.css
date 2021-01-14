@@ -230,6 +230,14 @@ img {
   height: 82px;
   line-height: 0;
 }
+
+.chlr.chlr_01:before {
+  left: -108px;
+}
+.chlr.chlr_01:after {
+  right: -108px;
+}
+
 .chlr .cl {
   display: inline-block;
   margin: 0 4px;
@@ -468,16 +476,15 @@ img {
 }
 
 .ct_01 {
-  margin: 55px 0 0;
+  margin: 50px 0 0;
   font-size: 34px;
   font-weight: bold;
-  text-shadow: 0.3px 0.3px 0 #000;
   letter-spacing: 1.3px;
 }
 
 .ct_ig01 {
   max-width: 497px;
-  margin: 66px auto 0;
+  margin: 0 auto 0;
   line-height: 0;
 }
 
@@ -1620,7 +1627,7 @@ footer small {
 
   .cbh_img {
     width: 97.7%;
-    margin: 2% auto 0;
+    margin: 10% auto 0;
     line-height: 0;
   }
 
@@ -1649,6 +1656,12 @@ footer small {
     background-size: 100% 100%;
     width: 16.89%;
     height: 63.08%;
+  }
+  .chlr.chlr_01:before {
+    left: -30%;
+  }
+  .chlr.chlr_01:after {
+    right: -31%;
   }
   .chlr .cl {
     display: inline-block;
@@ -1825,13 +1838,12 @@ footer small {
   .ct_01 {
     margin: 8% 0 0;
     font-size: calc(53vw/12);
-    text-shadow: 0.3px 0.3px 0 #000;
     letter-spacing: 0.8px;
   }
 
   .ct_ig01 {
     width: 73.4%;
-    margin: 8.5% auto 0;
+    margin: 0 auto 0;
   }
 
   .c_top {
@@ -2545,7 +2557,7 @@ footer small {
 
   .cbh_img {
     width: 99.3%;
-    margin: 2% auto 0;
+    margin: 9% auto 0;
   }
 
   .banner_t {
@@ -2742,13 +2754,11 @@ footer small {
   .ct_01 {
     margin: 8% 0 0;
     font-size: calc(55vw/12);
-    text-shadow: 0.2px 0.2px 0 #000;
-    letter-spacing: -0.5px;
   }
 
   .ct_ig01 {
     width: 75.4%;
-    margin: 7.5% auto 0;
+    margin: 0 auto 0;
   }
 
   .c_top {
