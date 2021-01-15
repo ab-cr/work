@@ -233,9 +233,11 @@ img {
 
 .chlr.chlr_01:before {
   left: -108px;
+  top: 30px;
 }
 .chlr.chlr_01:after {
   right: -108px;
+  top: 30px;
 }
 
 .chlr .cl {
@@ -312,6 +314,7 @@ img {
   font-size: 43px;
   margin: 30px 0 0;
   letter-spacing: 1.2px;
+  line-height: 1.5;
 }
 .cp_item .cph_02 .ss {
   font-size: 34px;
@@ -636,7 +639,7 @@ header .h_date {
 }
 .time .conditions {
   position: relative;
-  padding: 35px 35px 50px;
+  padding: 50px 35px 50px;
   border: 3px solid #fff;
   border-radius: 20px;
   margin-top: 80px;
@@ -1659,9 +1662,11 @@ footer small {
   }
   .chlr.chlr_01:before {
     left: -30%;
+    top: 31%;
   }
   .chlr.chlr_01:after {
     right: -31%;
+    top: 31%;
   }
   .chlr .cl {
     display: inline-block;
