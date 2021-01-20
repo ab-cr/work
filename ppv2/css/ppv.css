@@ -563,6 +563,14 @@ header .h_date {
   color: #fff;
 }
 
+.kome {
+  display: inline-block;
+  margin: 11px 0 0;
+  vertical-align: text-top;
+  font-size: 19px;
+  font-weight: normal;
+}
+
 .time {
   background: #000;
   padding: 60px 0 60px;
@@ -1682,6 +1690,12 @@ footer small {
     text-indent: -1.5rem;
   }
 
+  .kome {
+    display: inline-block;
+    margin: 0.8% 0 0;
+    font-size: calc(29vw/12);
+  }
+
   .cp_item li {
     padding: 11% 0 12%;
   }
@@ -2567,6 +2581,12 @@ footer small {
 
   .banner_t {
     margin: 7% 0 0;
+  }
+
+  .kome {
+    display: inline-block;
+    margin: 0.8% 0 0;
+    font-size: calc(30vw/12);
   }
 
   .chlr {
