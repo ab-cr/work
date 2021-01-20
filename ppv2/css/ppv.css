@@ -262,7 +262,7 @@ img {
 }
 .cp_item .cp_n {
   padding: 61px 0 0 !important;
-/*  border: none;*/
+  border: none;
 }
 .cp_item .c_po1 {
   max-width: 216px;
