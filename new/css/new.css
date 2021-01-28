@@ -1620,9 +1620,6 @@ footer small {
     font-size: calc(32vw/12);
   }
 
-  footer {
-    padding: 4% 0 3%;
-  }
   footer .wrap {
     padding: 4% 0 5%;
     margin: 0 5%;
@@ -2264,10 +2261,6 @@ footer small {
     margin: 2.5% 0 0;
     line-height: 1.4;
     font-size: calc(34vw/12);
-  }
-
-  footer {
-    padding: 4% 0 3%;
   }
   footer .wrap {
     padding: 4% 0 5%;
