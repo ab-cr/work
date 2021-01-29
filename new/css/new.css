@@ -1535,11 +1535,11 @@ footer small {
   .contents .c_bagg .time:before {
       content: '';
       position: absolute;
-      top: 0;
+      top: 2px;
       left: 0;
       background-size: 100% 100%;
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
   }
 
   .cb_btn a {
@@ -1778,7 +1778,7 @@ footer small {
   }
 
   .contents .c_bagg .time {
-    padding: 0 0 0 7.5%;
+    padding: 0 0 0 5.5%;
     font-size: calc(41vw/12);
     
   }
