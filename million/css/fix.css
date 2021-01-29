@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.other .o_bg {
+	background: none !important;
+}
+
+.under_other {
+	background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/d379931e36553a75907b0ba8c08de41a_1cab96464ccfe2cbfe785b4a0087d018.jpg) center top no-repeat;
+	background-size: cover;
+	max-width: 1920px;
+}
+
+.under_other .pre_btn a {
+	max-width: 85.9%;
+	margin: 0 auto;
+}
