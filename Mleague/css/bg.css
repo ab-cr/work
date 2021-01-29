@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+header .h_a {
+    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/84c0eca725bc95dbcf213e1ebe9ef149_54f559687ce43e5e44ba2f552872da14.jpg) center center no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 480px) {
+	header .h_a {
+	    background: url(https://cdn.amebaowndme.com/madrid-prd/madrid-web/images/sites/598437/f8310583aa6117f0bc7ffcc543999eeb_bc945bba43be700e1c436442f007cb7f.jpg) center center no-repeat;
+	    background-size: cover;
+	}
+}
