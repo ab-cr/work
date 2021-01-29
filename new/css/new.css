@@ -1846,6 +1846,7 @@ footer small {
 
    .cb_btn a {
     font-size: 15px;
+    border-radius: 4px;
    }
   .contents .wrap {
     max-width: 680px;
